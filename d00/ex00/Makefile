@@ -16,7 +16,7 @@ $(NAME): $(OBJ)
 	clang++ -c $< -o $@
 
 clean:
-	rm -rf objects
+	rm -rf objectsya
 	/bin/rm -f *.o
 	/bin/rm -rf ./objects/*.o
 	printf '\033[31m[ ✔ ] %s\n\033[0m' "Cleaned megaphone"
